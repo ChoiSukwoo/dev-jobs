@@ -1,17 +1,6 @@
 import styled, { css } from "styled-components";
+import {BtnType}  from "../types/componentsType"
 
-type BtnProps = {
-    width: string;
-    height: string;
-    borderRadius: number;
-    fontSize: number;
-    color: string;
-    backgroundColor: string;
-    hoverColor: string;
-    hoverBackgroundColor: string;
-    children: string;
-    onClick?: () => void;
-}
 
 
 const StyledButton = styled.div`
@@ -31,7 +20,7 @@ const StyledButton = styled.div`
     `}
 `
 
-function Button(props:BtnProps){
+function Button(props:BtnType){
     return <StyledButton theme={props} onClick={props.onClick}>{props.children}</StyledButton>
 }
 

@@ -1,14 +1,16 @@
 import styled from "styled-components";
+import {CardType} from "../types/componentsType"
 
-type Props = {
-    Theme:string;
-    Props:CardProps;
-}
 
 
 type CardTheme = {
     backgroundColor:string,
     color:string
+}
+
+type Props = {
+    Theme:string;
+    Props:CardType;
 }
 
 const LightThema:CardTheme = {
@@ -19,16 +21,6 @@ const LightThema:CardTheme = {
 const DarkThema:CardTheme = {
     backgroundColor: "#19202D",
     color: "#FFFFFF"
-}
-
-export type CardProps = {
-    company:string;
-    logo: string;
-    logoBackground: string;
-    position: string;
-    postedAt: string;
-    contract: string;
-    location: string;
 }
 
 

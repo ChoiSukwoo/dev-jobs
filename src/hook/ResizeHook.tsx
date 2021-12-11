@@ -1,12 +1,12 @@
 import { useState, useEffect } from 'react';
-
+import {DeviceValue} from '../types/componentsType'
 
 const useResize = () => {
 
     const [state, setState] = useState({
         width: window.innerWidth,
         height: window.innerHeight,
-        device: 'web'
+        device: "Web" as DeviceValue
     });
 
     const setWindowHeight = () => {
@@ -16,19 +16,19 @@ const useResize = () => {
 
     const setDevice = () => {
 
-        let nowDevice = 'mobile'
+        let nowDevice = "Web" as DeviceValue
 
         if (window.innerWidth <= 767) {
-            nowDevice = 'mobile'
+            nowDevice = "Mobile"
         } else if (window.innerWidth <= 1023) {
-            nowDevice = 'tablet'
+            nowDevice =  "Tablet"
         } else {
-            nowDevice = 'web'
+            nowDevice =  "Web"
         }
 
         setState({
-            x: window.scrollX,
-            y: window.scrollY,
+            width: window.scrollX,
+            height: window.scrollY,
             device: nowDevice
         });
     };
@@ -53,7 +53,7 @@ const useResize = () => {
         };
     }, []);
 
-    return state.device;
+    return { device:state.device};
 };
 
 
