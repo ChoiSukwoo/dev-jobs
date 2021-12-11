@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/dev-jobs/static/css/main.7d9cff44.chunk.css",
-    "main.js": "/dev-jobs/static/js/main.2a77c8f7.chunk.js",
-    "main.js.map": "/dev-jobs/static/js/main.2a77c8f7.chunk.js.map",
+    "main.css": "/dev-jobs/static/css/main.b290a809.chunk.css",
+    "main.js": "/dev-jobs/static/js/main.92c47515.chunk.js",
+    "main.js.map": "/dev-jobs/static/js/main.92c47515.chunk.js.map",
     "runtime-main.js": "/dev-jobs/static/js/runtime-main.7feb60ad.js",
     "runtime-main.js.map": "/dev-jobs/static/js/runtime-main.7feb60ad.js.map",
     "static/js/2.06ddd56c.chunk.js": "/dev-jobs/static/js/2.06ddd56c.chunk.js",
     "static/js/2.06ddd56c.chunk.js.map": "/dev-jobs/static/js/2.06ddd56c.chunk.js.map",
     "index.html": "/dev-jobs/index.html",
-    "static/css/main.7d9cff44.chunk.css.map": "/dev-jobs/static/css/main.7d9cff44.chunk.css.map",
+    "static/css/main.b290a809.chunk.css.map": "/dev-jobs/static/css/main.b290a809.chunk.css.map",
     "static/js/2.06ddd56c.chunk.js.LICENSE.txt": "/dev-jobs/static/js/2.06ddd56c.chunk.js.LICENSE.txt",
     "static/media/bg-pattern-header.4da19080.svg": "/dev-jobs/static/media/bg-pattern-header.4da19080.svg",
     "static/media/bg-pattern-header.ea1134f1.svg": "/dev-jobs/static/media/bg-pattern-header.ea1134f1.svg",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.7feb60ad.js",
     "static/js/2.06ddd56c.chunk.js",
-    "static/css/main.7d9cff44.chunk.css",
-    "static/js/main.2a77c8f7.chunk.js"
+    "static/css/main.b290a809.chunk.css",
+    "static/js/main.92c47515.chunk.js"
   ]
 }
