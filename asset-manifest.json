@@ -1,29 +1,26 @@
 {
   "files": {
     "main.css": "/dev-jobs/static/css/main.b290a809.chunk.css",
-    "main.js": "/dev-jobs/static/js/main.73268750.chunk.js",
-    "main.js.map": "/dev-jobs/static/js/main.73268750.chunk.js.map",
+    "main.js": "/dev-jobs/static/js/main.daa68212.chunk.js",
+    "main.js.map": "/dev-jobs/static/js/main.daa68212.chunk.js.map",
     "runtime-main.js": "/dev-jobs/static/js/runtime-main.7feb60ad.js",
     "runtime-main.js.map": "/dev-jobs/static/js/runtime-main.7feb60ad.js.map",
-    "static/js/2.06ddd56c.chunk.js": "/dev-jobs/static/js/2.06ddd56c.chunk.js",
-    "static/js/2.06ddd56c.chunk.js.map": "/dev-jobs/static/js/2.06ddd56c.chunk.js.map",
+    "static/js/2.b5dc5f1d.chunk.js": "/dev-jobs/static/js/2.b5dc5f1d.chunk.js",
+    "static/js/2.b5dc5f1d.chunk.js.map": "/dev-jobs/static/js/2.b5dc5f1d.chunk.js.map",
     "index.html": "/dev-jobs/index.html",
     "static/css/main.b290a809.chunk.css.map": "/dev-jobs/static/css/main.b290a809.chunk.css.map",
-    "static/js/2.06ddd56c.chunk.js.LICENSE.txt": "/dev-jobs/static/js/2.06ddd56c.chunk.js.LICENSE.txt",
+    "static/js/2.b5dc5f1d.chunk.js.LICENSE.txt": "/dev-jobs/static/js/2.b5dc5f1d.chunk.js.LICENSE.txt",
     "static/media/bg-pattern-header.4da19080.svg": "/dev-jobs/static/media/bg-pattern-header.4da19080.svg",
     "static/media/bg-pattern-header.ea1134f1.svg": "/dev-jobs/static/media/bg-pattern-header.ea1134f1.svg",
     "static/media/bg-pattern-header.f3307602.svg": "/dev-jobs/static/media/bg-pattern-header.f3307602.svg",
-    "static/media/icon-filter.eb1624d2.svg": "/dev-jobs/static/media/icon-filter.eb1624d2.svg",
-    "static/media/icon-location.325ff3d9.svg": "/dev-jobs/static/media/icon-location.325ff3d9.svg",
     "static/media/icon-moon.038e80ca.svg": "/dev-jobs/static/media/icon-moon.038e80ca.svg",
-    "static/media/icon-search.778800d5.svg": "/dev-jobs/static/media/icon-search.778800d5.svg",
     "static/media/icon-sun.9422c153.svg": "/dev-jobs/static/media/icon-sun.9422c153.svg",
     "static/media/logo.8c0b6449.svg": "/dev-jobs/static/media/logo.8c0b6449.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.7feb60ad.js",
-    "static/js/2.06ddd56c.chunk.js",
+    "static/js/2.b5dc5f1d.chunk.js",
     "static/css/main.b290a809.chunk.css",
-    "static/js/main.73268750.chunk.js"
+    "static/js/main.daa68212.chunk.js"
   ]
 }
