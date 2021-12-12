@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import {DeviceType,ThemeType,SizeTheme,CardType} from "../types/componentsType"
+import {ThemeType,SizeTheme,CardType} from "../types/componentsType"
 import JobCard from "../components/JobCard"
 
 type Props = {

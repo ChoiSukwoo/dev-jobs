@@ -9,7 +9,7 @@ const StyledButton = styled.div`
 
     ${({ theme }) => css`
     width:${theme.width}; height:${theme.height};   
-    border-radius:${theme.borderRadius}px; font-size:${theme.fontSize}px;   
+    border-radius:${theme.borderRadius}px; font-size:${theme.fontSize}px; font-weight: ${theme.fontWeight};
     font-size:${theme.fontSize}; color:${theme.color};   
     background-color:${theme.backgroundColor};
 
@@ -29,6 +29,7 @@ Button.defaultProps = {
     height: '48px',
     borderRadius: 5,
     fontSize: 16,
+    fontWeight:700,
     color: '#FFF',
     backgroundColor: '#5964E0',
     hoverColor: '#FFF',

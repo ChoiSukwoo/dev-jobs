@@ -1,16 +1,11 @@
-
-
-
 import jobData from './data/data.json'
 import {CardType} from "./types/componentsType"
 
-
 import ResizeHook from './hook/ResizeHook'
 import ThemeHook from './hook/ThemeHook'
-import Button from './components/Button'
 
-import JobCard from './components/JobCard'
 import MainLayout from './Layouts/MainLayout'
+import DetailLayout from './Layouts/DetailLayout'
 
 
 function App() {
@@ -22,7 +17,8 @@ function App() {
 
 
   return (
-    <MainLayout Theme={Theme} Device={Device} />
+    // <MainLayout Theme={Theme} Device={Device} />
+    <DetailLayout Theme={Theme} Device={Device}/>
   );
 }
 

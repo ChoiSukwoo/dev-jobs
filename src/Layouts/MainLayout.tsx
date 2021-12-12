@@ -2,6 +2,7 @@ import styled from "styled-components";
 import {DeviceType,ThemeType,CardType} from "../types/componentsType"
 
 import HeaderBar from "../components/HeaderBar"
+import SearchBar from "../components/SearchBar"
 import CardDisplay from "../components/CardDisplay"
 
 import data from "../data/data.json"
@@ -19,13 +20,13 @@ const MainLayoutComponent = styled.div`
 function MainLayout({Theme,Device}:Props){
 
     const LayoutTheme = Theme.theme === "Dark" ? "#121721" : "#F4F6F8"
-
-
-    const HeaderBarComponent = Device.device === "Mobile" ? HeaderBar.Mobile : HeaderBar.Web
+    const SearchBarComponent = Device.device === "Mobile" ? SearchBar.Mobile : SearchBar.Web
 
     return(
         <MainLayoutComponent theme={LayoutTheme}>
-            <HeaderBarComponent Theme={Theme} Device={Device} />
+            <HeaderBar Theme={Theme} Device={Device} >
+                <SearchBarComponent Theme={Theme} Device={Device}/>
+            </HeaderBar>
             <CardDisplay Theme={Theme} Data={data as CardType[]}/>
         </MainLayoutComponent>
     )
